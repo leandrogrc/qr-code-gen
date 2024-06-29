@@ -1,0 +1,18 @@
+#banner {
+    background-image: url("./assets/imgs/banner.png");
+    z-index: 100;
+    width: 100%; /* Adjust as needed */
+    height: 35vh; /* Adjust as needed */
+    object-fit:cover;
+    background-size: cover; /* This ensures the image covers the entire div */
+    background-position: center; /* This centers the image */
+  }
+  
+  img {
+    max-width: 80%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
