@@ -1,6 +1,5 @@
 import QRCode from 'qrcode';
-
-gerarQRcode = async (req, res) => {
+const gerarQRcode = async (req, res) => {
     const { text, tam } = req.body;
 
     if (!text) {
